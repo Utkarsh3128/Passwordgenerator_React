@@ -1,5 +1,15 @@
 ## Password Generator
-In this project, we will learn about different hooks such as ```useState```,   ```useEffect``` & ```useRef```
+In this project, we will learn about different hooks such as ```useCallback```,   ```useEffect``` & ```useRef```
+
+### **useCallback**
+- ```useCallback``` is a React hook that lets you cache a function definition between re-renders. In other words,this hook returns a memoized callback function
+- This allows us to isolate resource intensive functions so that they will not automatically run on every render.
+- This hook only runs when one of its dependencies update.
+Example:-
+```
+const cachedFn = useCallback(fn, dependencies)
+```
+
 
 ## React + Vite
 
