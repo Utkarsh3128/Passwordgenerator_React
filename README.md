@@ -1,4 +1,7 @@
-# React + Vite
+## Password Generator
+In this project, we will learn about different hooks such as ```useState```,   ```useEffect``` & ```useRef```
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
