@@ -17,3 +17,12 @@ Syntax:-
 ```
 useEffect(setup, dependencies?)
 ```
+
+### **useRef**
+- ```useRef``` is a React Hook that lets you reference a value that’s not needed for rendering.
+- It allows us to persist values between renders.
+- It can be used to store a mutable value that does not cause a re-render when updated.
+Syntax:-
+```
+const ref = useRef(initialValue)
+```
